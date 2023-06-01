@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body {
+            background-color: lightslategray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            padding: 4px;
+            margin: 5px;
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Significados de siglas</h2>
+
+    <button type="button"
+    onclick="document.getElementById('demo1').innerHTML = 'Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.'">
+    Texto de número 1 'HTML'</button>
+    <button type="button"
+    onclick="document.getElementById('demo2').innerHTML = 'O que é CSS e como surgiu? Ao falarmos sobre o que é CSS (Cascading Style Sheet, ou Folha de Estilo em Cascatas), é necessário dizer que sua aplicação é utilizada na estilização de componentes escritos em linguagens de marcação.'">
+    Texto de número 2 'CSS'</button>
+    <button type="button"
+    onclick="document.getElementById('demo3').innerHTML = 'O JavaScript é amplamente categorizado como uma linguagem de criação de scripts ou uma linguagem interpretada. O código em JavaScript é interpretado, ou seja, é traduzido diretamente no código de linguagem de máquina subjacente por um mecanismo de JavaScript.'">
+    Texto de número 3 'JS'</button>
+    <button type="button"
+    onclick="document.getElementById('demo4').innerHTML = 'O que é o DOM? O Document Object Model (DOM) é uma interface de programação para os documentos HTML e XML. Representa a página de forma que os programas possam alterar a estrutura do documento, alterar o estilo e conteúdo.'">
+    Texto de número 4 'DOM'</button>
+
+    <p id="demo1">Este texto será mudado para outro texto sobre HTML</p>
+    <p id="demo2">Este texto será mudado para outro texto sobre CSS</p>
+    <p id="demo3">Este texto será mudado para outro texto sobre JavaScript</p>
+    <p id="demo4">Este texto será mudado para outro texto sobre DOM</p>
+
+</body>
+</html>
